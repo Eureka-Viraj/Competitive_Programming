@@ -7,7 +7,7 @@ void stl_pair(int a, int b){
   cout << p.first << " " << p.second << endl;
   // nested pair here we are doing pairs inside pair
   pair<int, pair<int, int>> nesP = {a, {b, a+b}};
-  cout << nesP.first << " " << nesP.second.first << " " << nesP.second.second;
+  cout << nesP.first << " " << nesP.second.first << " " << nesP.second.second << endl;
   // We can also store the pairs inside the array
   pair<int, int> arr[] = {{a,b},{a+b,a-b},{a*b,a/b},{max(a,b), min(a,b)}};
   // trying to iterate each element of the array through the array.
