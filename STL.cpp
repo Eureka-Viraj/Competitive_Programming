@@ -17,6 +17,14 @@ void stl_pair(int a, int b){
   }
 }
 
+void stl_vector();
+
+void stl_list();
+
+void stl_deque();
+
+void stl_stack();
+
 int main(){
   int a, b;
   cin >> a >> b;
